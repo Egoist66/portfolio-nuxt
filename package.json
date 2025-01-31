@@ -6,11 +6,12 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "cleanup-start": "npx nuxi cleanup && pnpm run dev --host",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.15.3",
+    "nuxt": "^3.15.4",
     "vue": "latest",
     "vue-router": "latest"
   },
