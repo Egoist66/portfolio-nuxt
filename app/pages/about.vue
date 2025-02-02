@@ -1,7 +1,11 @@
 <script setup lang="ts">
 
   useHead({
-    title: 'About page'
+    title: 'About page',
+  })
+
+  definePageMeta({
+    layout: 'custom'
   })
 
 </script>
