@@ -1,4 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+  useHead({
+    title: 'About page'
+  })
+
+</script>
 
 <template>
   <div>

@@ -1,16 +1,17 @@
+
 <script setup lang="ts">
 
-useHead({
-  title: 'Home page'
-})
 
 </script>
 
 <template>
-  <div>
-    Home page
+    <div>
 
-  </div>
+        Index page
+
+   
+
+    </div>
 </template>
 
 <style scoped>
