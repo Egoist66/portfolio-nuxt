@@ -1,23 +1,6 @@
 <script setup lang="ts">
 
-type AppLinks = {
-  name: string,
-  alias?: string,
-  path: string
-}
-
-const appLinks: AppLinks[] = [
-  {
-    name: 'Home',
-    alias: '/',
-    path: '/'
-  },
-  {
-    name: 'About',
-    path: '/about',
-    alias: 'about'
-  }
-]
+import appLinks from '@/routes/routes'
 
 
 </script>
