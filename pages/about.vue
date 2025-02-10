@@ -4,7 +4,7 @@ useHead({
 });
 
 definePageMeta({
-  layout: "custom",
+  layout: "default",
 });
 
 

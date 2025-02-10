@@ -2,8 +2,6 @@
 
 const route = useRouter()
 
-
-
 const H1 = defineNuxtComponent({
     setup(props, context) {
 

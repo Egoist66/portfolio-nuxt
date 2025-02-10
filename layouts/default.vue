@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="container mx-auto">
     <header>
       <nav>
         <ul>
@@ -17,7 +17,9 @@
       </nav>
     </header>
 
-    <slot />
+    <main>
+      <slot />
+    </main>
   </div>
 </template>
 
