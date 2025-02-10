@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto max-w-2xl">
     <header>
       <nav>
         <ul>
