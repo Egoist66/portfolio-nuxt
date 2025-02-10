@@ -1,16 +1,16 @@
 <script setup lang="ts">
 
 useHead({
-  title: 'Home page'
+  title: 'Home'
 })
 
 </script>
 
 <template>
-  <div>
+  <section>
     Home page
 
-  </div>
+  </section>
 </template>
 
 <style scoped>

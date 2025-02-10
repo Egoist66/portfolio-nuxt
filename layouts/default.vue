@@ -1,23 +1,11 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="container mx-auto max-w-2xl">
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <NuxtLink to="/">Home</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink :to="{ name: 'about' }">Go to about</NuxtLink>
-          </li>
-        </ul>
-      </nav>
-    </header>
+  <div class="container mx-auto max-w-2xl px-3">
+    
+    <PartialsHeader />
 
-    <main>
+    <main class="py-2">
       <slot />
     </main>
   </div>
@@ -26,6 +14,5 @@
 <style scoped>
 a {
   display: block;
-  color: deepskyblue;
 }
 </style>

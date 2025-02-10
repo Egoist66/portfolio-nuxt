@@ -1,5 +1,9 @@
 <script setup lang="ts">
 
+
+const nuxtApp = useNuxtApp()
+
+console.log(nuxtApp);
 </script>
 
 <template>

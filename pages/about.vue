@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: "About page",
+  title: "About",
 });
 
 definePageMeta({
@@ -11,7 +11,7 @@ definePageMeta({
 </script>
 
 <template>
-  <div>Page: about</div>
+  <section>Page: about</section>
 </template>
 
 <style scoped></style>
