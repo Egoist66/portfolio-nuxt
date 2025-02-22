@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import appLinks from '@/routes/routes'
+import appLinks from '../../../routes/routes'
 
 
 </script>
