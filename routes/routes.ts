@@ -7,15 +7,15 @@ export default [
       path: '/'
     },
     {
-      name: 'Projects',
-      path: '/projects',
-      alias: 'projects'
-    },
-    {
       name: 'About',
       path: '/about',
       alias: 'about'
     },
-   
-] as AppLinks[]
+    {
+      name: 'Projects',
+      path: '/projects',
+      alias: 'projects'
+    },
+    
+  ] as AppLinks[]
   

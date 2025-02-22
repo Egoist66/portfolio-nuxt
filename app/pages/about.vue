@@ -5,7 +5,9 @@ useHead({
 
 definePageMeta({
   layout: "default",
+
 });
+
 
 
 const route = useRoute()

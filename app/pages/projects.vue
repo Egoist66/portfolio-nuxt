@@ -1,10 +1,10 @@
 <script setup lang="ts">
 
-  useHead({
-    title: 'Projects',
-  })
+useHead({
+  title: "Projects",
+});
 
-  const route = useRoute()
+const route = useRoute();
 
 </script>
 
@@ -12,8 +12,8 @@
   <section>
     <h1 class="text-2xl font-semibold mb-10">{{ capitalize(route.name as string) }}</h1>
 
-    <UiProjectsList @click="console.log(2);" />
 
+    <LazyUiProjectList />
   </section>
 </template>
 

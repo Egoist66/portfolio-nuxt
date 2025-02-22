@@ -5,7 +5,7 @@
     
     <PartialsHeader />
 
-    <main class="py-2">
+    <main class="py-2 mt-10">
       <slot />
     </main>
   </div>
