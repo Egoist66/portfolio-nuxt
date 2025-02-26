@@ -3,12 +3,12 @@
 
 const nuxtApp = useNuxtApp()
 
-console.log(nuxtApp);
+
 </script>
 
 <template>
  
-  <NuxtLoadingIndicator color="deepskyblue" />
+  <NuxtLoadingIndicator color="#3C82F6" />
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>

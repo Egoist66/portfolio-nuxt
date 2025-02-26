@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  typescript: {
+    typeCheck: process.env.NODE_ENV === "development",
+  },
   
   app: {
     pageTransition: { name: "page", mode: "out-in" },
