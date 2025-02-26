@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { GitHubProjects } from "~~/api/projects.api.type";
 
-const { data, status, error, refresh } = await useFetch<GitHubProjects[]>(
+const { data, status, error } = await useFetch<GitHubProjects[]>(
   "https://api.github.com/users/piotr-jura-udemy/repos#",
   {
     method: "get",

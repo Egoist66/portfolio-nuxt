@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   typescript: {
-    typeCheck: process.env.NODE_ENV === "development",
+    typeCheck: true,
   },
   
   app: {
