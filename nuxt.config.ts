@@ -9,8 +9,14 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
+  router: {
+    options: {
+      scrollBehaviorType: "smooth",
+    }
+  },
   
   app: {
+    
     pageTransition: { name: "page", mode: "out-in" },
     viewTransition: true,
     head: {

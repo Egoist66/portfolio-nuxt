@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="container mx-auto max-w-2xl px-3">
+  <div class="container mx-auto  px-3">
     
     <PartialsHeader />
 

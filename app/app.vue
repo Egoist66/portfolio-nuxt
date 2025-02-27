@@ -13,3 +13,5 @@ const nuxtApp = useNuxtApp()
     <NuxtPage />
   </NuxtLayout>
 </template>
+
+

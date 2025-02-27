@@ -27,17 +27,17 @@ const { data, status, error } = await useFetch<GitHubProjects[]>(
       v-if="status === 'error'"
     />
 
-    <ul v-else class="grid grid-cols-1 gap-4">
+    <ul v-else class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       <template v-if="data.length">
-        <NuxtLink
-          target="_blank"
-          class="text-blue-500 border block border-gray-200 rounded-sm p-4 hover:bg-gray-100"
-          v-for="project in data"
-          :key="project.id"
-          :to="project?.html_url"
-        >
-          <li>{{ project.name }}</li>
-        </NuxtLink>
+        <li v-for="project in data" :key="project.id">
+          <NuxtLink
+            target="_blank"
+            class="text-blue-500 text-center border flex h-full items-center justify-center border-gray-200 rounded-sm p-4 hover:bg-gray-100"
+            :to="project?.html_url"
+          >
+            {{ project.name }}
+          </NuxtLink>
+        </li>
       </template>
 
       <h3 class="text-center text-xl" v-else>No projects</h3>
